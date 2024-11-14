@@ -1,0 +1,569 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 0.7vw;
+}
+.boxcenter {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row {
+    float: left;
+    width: 100%;
+}
+.mb15{
+    margin-bottom: 20px;
+}
+.mb10 {
+    margin-bottom: 5px;
+}
+.mb {
+    margin-bottom: 30px;
+}
+
+.mr {
+    margin-right: 2%;
+}
+
+.demo {
+    background-color: antiquewhite;
+    min-height: 100px;
+}
+
+.header {
+    background-color: #E5E4E2;
+    border: none;
+    color: blue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 20px;
+    font-size: 1.4vw;
+}
+
+.menu {
+    background-color: black;
+    border: none;
+    color: #ccc;
+    border-radius: 5px;
+}
+
+.boxphai {
+    float: left;
+    width: 24%;
+}
+
+.boxtrai {
+    float: left;
+    width: 74%;
+}
+
+.footer {
+    background-color: #E5E4E2;
+    text-align: center;
+    border: 1px #ccc solid;
+    font-size: 1vw;
+    color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.boxtitle {
+    color: #333;
+    padding: 10px;
+    background-color: #eee;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border: 1px #ccc solid;
+}
+
+.boxcontent {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.boxcontent2 {
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    min-height: 200px;
+    background-color: #EEE;
+}
+
+.boxfooter {
+    padding: 10px;
+    background-color: #eee;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left: 1px #ccc solid;
+    border-right: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+}
+
+.banner {
+    min-height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.banner img {
+    height: 300px;
+}
+/* ================== SẢN PHẨM ============= */
+
+.boxsp {
+    float: left;
+    width: 32%;
+    min-height: 350px; /* Tăng chiều cao tối thiểu để đảm bảo đủ không gian */
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin: 3px;
+    box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước tổng thể */
+    padding: 10px;
+    text-align: center; /* Căn giữa nội dung */
+    background-color: #f9f9f9; /* Thêm màu nền nhạt */
+}
+
+.boxsp img {
+    width: 150px; /* Chiều rộng hình ảnh */
+    height: 150px; /* Chiều cao hình ảnh */
+    margin: 20px auto; /* Căn giữa hình ảnh với khoảng cách trên và dưới là 20px */
+    display: block; /* Đảm bảo hình ảnh là một khối và căn giữa trong div */
+    border-radius: 5px; /* Bo tròn góc ảnh */
+}
+
+.boxsp p {
+    font-size: 16px; /* Kích thước phông chữ hợp lý */
+    color: #333;
+    margin: 10px 0;
+    padding: 0 10px; /* Khoảng cách nội dung bên trong */
+}
+
+.boxsp a {
+    font-size: 14px; /* Kích thước phông chữ hợp lý */
+    color: #007BFF;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.boxsp a:hover {
+    text-decoration: underline;
+}
+
+.boxsp .btn-add-cart {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.boxsp .btn-add-cart:hover {
+    background-color: #0056b3;
+}
+
+
+/* ======== menu ============== */
+.menu ul {
+    padding: 0 15px;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 15px;
+}
+
+.menu ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover {
+    color: white;
+    font-size: 0.8vw;
+}
+
+/* ========== content ================= */
+
+/* box tài khoản */
+.formtk {
+    line-height: 150%;
+}
+
+.formtk input[type="text"],
+.formtk input[type="email"],
+.formtk input[type="password"],
+.formcontent input[type="text"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.formtk input[type="checkbox"] {
+    border: 1px solid #ccc;
+}
+
+.formtk input[type="submit"],
+.formcontent input[type="submit"],
+.formtk input[type="reset"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"] {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.formtk input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover {
+    background-color: #ccc;
+}
+
+.formtk li a {
+    color: teal;
+    text-decoration: none;
+}
+
+.formtk li a:hover {
+    color: #093;
+    text-decoration: underline;
+}
+
+/* =========== menu dọc =========== */
+.menudoc ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.menudoc ul li {
+    padding: 10px 20px;
+    background-color: #EEE;
+    border-bottom: 1px solid #ccc;
+}
+
+.menudoc ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.menudoc ul li:hover {
+    background-color: #ccc;
+}
+
+.searchBox {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.searchBox form {
+    display: flex;
+    height: 28px;
+}
+
+.searchBox input[type="text"] {
+    flex: 1;
+    border: 1px solid #ccc; 
+}
+
+.searchBox input[type="submit"] {
+    background-color: #eee;
+    border: 1px solid #ccc; 
+}
+
+.searchBox input[type="submit"]:hover {
+    background-color: #ccc;
+}
+
+/* ================ top 10 ================= */
+
+.top10 img {
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+
+.top10 a {
+    color: #666;
+    text-decoration: none;
+}
+
+.top10 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* ========= admin ======== */
+
+.headerAD {
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 0px 20px;
+}
+
+.headerAD h1 {
+    font-size: 2vw;
+}
+
+.formtitle {
+    border: 1px #ccc solid;
+    color: #666;
+    border-radius: 5px;
+    background-color: #eee;
+    padding: 0px 20px;
+}
+
+.formcontent {
+    padding: 20px 0;
+}
+
+/* =========== form danh sách loại ========= */
+
+.formdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.formdsloai table th {
+    padding: 20px 0;
+    background-color: #ccc;
+}
+
+.formdsloai table td {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+/* ================Slideshow container=============== */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(0,0,0,0.5); /* Add background color for visibility */
+    z-index: 1; /* Ensure buttons are above the images */
+}
+
+.prev {
+    left: 0; /* Position on the left side */
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0; /* Position on the right side */
+    border-radius: 0 3px 3px 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/* SẢN PHẨM CHI TIẾT */
+.spct {
+    text-align: center;
+}
+
+.thongbao {
+    color: red;
+}
+
+/* THÊM GIỎ HÀNG */
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th {
+    padding: 20px 0;
+    background-color: #ccc;
+}
+
+.cart table td {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+}
+
+/* THÔNG TIN ĐẶT HÀNG */
+
+.billform {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.billform table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.billform table tr {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.billform table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.billform table tr td {
+    padding: 10px;
+}
+
+.billform table tr td:first-child {
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    padding-right: 20px;
+    background-color: #f9f9f9;
+}
+
+.billform input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.billform input[type='submit'] {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.billform input[type='submit']:hover {
+    background-color: #218838;
+}
+
+/* PHƯƠNG THỨC THANH TOÁN */
+
+.pttt {
+    background-color: #f9f9f9;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.pttt table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pttt table tr {
+    background-color: #ffffff;
+    border-bottom: 1px solid #cccccc;
+}
+
+.pttt table tr td {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.pttt input[type='radio'] {
+    margin-right: 10px;
+}
+
+/* BÌNH LUẬN */
+
+
+
+
+
